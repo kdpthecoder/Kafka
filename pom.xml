@@ -10,11 +10,11 @@
         <packaging>pom</packaging>
 
         <modules>
-                <module>app</module>
-                <module>util</module>
-                <module>app</module>
-                <module>util</module>
-                <module>app</module>
+                <module>SimpleKafkaProducer</module>
+                <module>SimpleKafkaPartitioner</module>
+                <module>HighLevelMultiThreadedKafkaConsumer</module>
+                <module>HighLevelKafkaConsumerSingleThreaded</module>
+                <module>LowLevelKafkaConsumer</module>
         </modules>
 
 </project>
